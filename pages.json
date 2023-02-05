@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/start/start",
+		// 	"style": {
+		// 		"navigationBarTitleText": "开始",
+		// 		"enablePullDownRefresh": false
+		// 	}
+
+		// },
+		{
+			"path": "pages/gen/gen",
+			"style": {
+				"navigationBarTitleText": "生成",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/encrypt/encrypt",
+			"style": {
+				"navigationBarTitleText": "加密",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/decrypt/decrypt",
+			"style": {
+				"navigationBarTitleText": "解密",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/guide/guide",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "使用说明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/keylist/keylist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通讯录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/keylist/listadd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "增加",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#989898",
+		"selectedColor": "#545454",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [
+			// {
+			// 	"pagePath": "pages/home/home",
+			// 	"iconPath": "./static/tabbar/1.png",
+			// 	"selectedIconPath": "./static/tabbar/01.png",
+			// 	"text": "首页"
+			// },
+			{
+				"pagePath": "pages/encrypt/encrypt",
+				"iconPath": "./static/lock.png",
+				"text": "加密"
+			},
+			{
+				"pagePath": "pages/decrypt/decrypt",
+				"iconPath": "./static/unlock.png",
+				"text": "解密"
+			},
+			{
+				"pagePath": "pages/keylist/keylist",
+				"iconPath": "./static/cont.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/gen/gen",
+				"iconPath": "./static/creat.png",
+				"text": "密钥"
+			}
+		]
+	}
+}
